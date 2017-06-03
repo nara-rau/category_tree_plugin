@@ -1,0 +1,21 @@
+$(document).ready(function()
+{
+	$('.div_for_each_category .branch').hover(function(){
+														$(this).children().css({'display':'block'});
+														$(this).css({'background-color':'#96396a'});
+														},
+											  function(){
+														$(this).css({'background-color':'grey'});
+														$(this).children().next().css({'display':'none'});
+														});
+	$('.div_for_posts').hover(function(){
+											$(this).css({'background-color':'#96396a'});
+										},	
+							  function(){
+											$(this).css({'background-color':'grey'});
+										});
+	$('.branch').find('a').css({'text-decoration':'none'}).click(function(e){
+																			if($(this).attr('title')==0)
+																				e.preventDefault();
+																			})
+})

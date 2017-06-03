@@ -1,0 +1,47 @@
+#main_category
+{
+
+margin-bottom:30px;
+width:180px;
+}
+.div_for_each_category
+{
+}
+.branch
+{
+
+color:white;
+height:40px;
+font-size:15px;
+position:relative;
+border:1px solid #96396a; 
+}
+.branch a
+{
+margin-left:20px;
+color:white;
+}
+.div_for_subcategory
+{
+height:100px;
+display:none;
+border:2px solid #96396a; 
+overflow-x:auto;
+width:180px;
+margin-left:178px;
+margin-top:-45px;
+}
+.div_for_posts
+{
+border: 1px solid #96396a;
+height:40px;
+font-size:20px;
+width:178px;
+background-color:grey;
+overflow:hidden;
+}
+.div_for_posts a
+{
+color:pink;
+margin-left:20px;
+}
